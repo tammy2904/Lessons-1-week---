@@ -14,7 +14,7 @@ console.log('Index of i:', animal.indexOf('i')); //2
 
 console.log('Index of o:', animal.indexOf('o')); //4
 
-console.log('Index of lion:', animal.indexOf('lion')); //-1
+console.log('Index of lion:', animal.indexOf('lion')); //-1 it means there's no 'lion' in this string
 
 const text = 'Мой любимый язык программирования - JavaScript';
 
