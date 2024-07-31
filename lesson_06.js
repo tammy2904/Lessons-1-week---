@@ -48,7 +48,7 @@ if (currentTime >= closingTime) {
     }
     // ?:  replacement for if else
 const favoriteDrink = 'Coffee';
-let message = 'Coffee';
+let message = '';
 if (favoriteDrink === 'Coffee') {
     message = 'I love coffee!'}
     else if (favoriteDrink === 'Tea') {
@@ -62,7 +62,13 @@ const message1 = favoriteDrink === 'Coffee'
 console.log('message1', message1);
 
 // ? = if , : = else
-    const salary = developerJobType === 'Front-end Developer'? '$50,000' : developerJobType === 'Back-end Developer'? '$60,000' : developerJobType === 'Full-stack Developer'? '$3500,000' : 'Invalid job type.';
+    const salary = developerJobType === 'Front-end Developer'
+    ? '$50,000' 
+    : developerJobType === 'Back-end Developer'
+    ? '$60,000' 
+    : developerJobType === 'Full-stack Developer'
+    ? '$3500,000' 
+    : 'Invalid job type.';
     console.log('Salary:', salary);
  // тернарный оператор вместо if else
 
