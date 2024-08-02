@@ -5,12 +5,12 @@
 
 
 // for(начальное значение; условие; шаг) {}
-// for(let i = 0; i < 10; i += 1) {
-//     console.log('i =', i);
-// }
-// for (let i = 10; i >= 0; i -= 1) {
-//     console.log('i =', i);
-// }
+for(let i = 0; i < 10; i += 1) {
+    console.log('i =', i);
+}
+for (let i = 10; i >= 0; i -= 1) {
+    console.log('i =', i);
+}
 
 // while
 
