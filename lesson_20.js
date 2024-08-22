@@ -22,3 +22,13 @@ const sum = salariesOfDevelopers.reduce((acc, salary, index, array) => {
     return acc + salary;
 }, 0); // 3850
 console.log('sum', sum);
+
+
+
+const userNicknames = ['user_1', 'user_2', 'user_3'];
+const updatedUserNicknames = [
+...userNicknames,
+'the_best_user',
+...userNicknames,
+];
+console.log('updatedUserNicknames', updatedUserNicknames);
